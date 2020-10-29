@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VolleyScore</string>
+    <string name="restart">Restart</string>
+    <string name="team">Team</string>
+    <string name="set">Set</string>
+    <string name="point">Point!</string>
+    <string name="points">Points</string>
+    <string name="back">Back</string>
+    <string name="sethistory">Set History</string>
+</resources>

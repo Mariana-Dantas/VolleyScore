@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.VolleyScore" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/light_blue_ball</item>
+        <item name="colorPrimaryVariant">@color/dark_blue_ball</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/orange_ball</item>
+        <item name="colorSecondaryVariant">@color/dark_orange_ball</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="text_main">
+        <item name="android:textSize">50sp</item>
+        <item name="android:textColor">@color/light_blue_ball</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:typeface">sans</item>
+    </style>
+
+    <!-- Tabble text -->
+    <style name="text_table">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">@color/black</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/dark_blue_ball</item>
+        <item name="android:background">@drawable/border</item>
+    </style>
+</resources>
